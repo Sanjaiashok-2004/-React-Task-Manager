@@ -1,0 +1,78 @@
+
+.task-li{
+    color: rgb(27, 26, 26);
+    border: 1px solid rgb(201, 185, 185);
+    box-shadow: 15px rgb(199, 190, 190);
+    border-radius: 20px;
+    padding: 10px 8px ;
+    margin-top: 10px;   
+ display: flex;
+ justify-content: space-around;
+  box-shadow: 1px 3px 3px 3px rgb(243, 242, 245);
+}
+.deleted-button{
+    background-color: rgb(149, 84, 209);
+    padding:2px 10px;
+    border-radius: 4px;
+    border:1px solid white;
+    color: white;
+}
+
+            
+.Name-list{
+font-size: large;
+font-weight:lighter;
+}
+
+
+.submitbutton{
+    background-color: rgb(149, 84, 209);
+    text-decoration: none;
+    color: white;
+}
+.inputvalue:hover{
+    box-shadow: 5px 3px 3px rgb(149, 84, 209);
+    /* text-decoration: none;R */
+
+}
+
+
+.inputvalue{
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid rgb(155, 147, 147);
+    border-radius: 10px;
+    
+
+
+}
+.forms{
+    display: flex;
+    gap: 25px;
+    margin-left: 30px;
+    
+    
+}
+
+.titlename{
+color: rgb(149, 84, 209);
+}
+
+.count-number{
+    padding: 10px  5px; 
+    border: 1px solid rgb(155, 147, 147);
+    border-radius: 10px;
+    color:white; 
+    font-size: large;
+    font-weight: bold;
+
+    background: linear-gradient(rgb(175, 131, 218), rgb(238, 232, 232));
+
+}
+.task-ul {
+     margin-left: 0%;
+}
+
+ .completed{
+    text-decoration: line-through;
+}
